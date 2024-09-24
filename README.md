@@ -11,11 +11,10 @@ Este projeto é uma simulação de uma **urna eletrônica** desenvolvida em Java
  <img src="images/inicio.png" alt="init page"/>
 
  -  Voto: 
+
      <img src="images/votacao-prefeito.png" alt="vote_mayor"/>
 
-    <br/>
-
-     <img src="images/votacao-verador.png" alt="vote_councilor"/>
+     <img src="images/votacao-vereador.png" alt="vote_councilor"/>
 
 - Nulo: 
 
