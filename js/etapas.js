@@ -12,9 +12,9 @@ let steps = [
                 ]
             },
             {
-                numero: '77222',
-                nome: 'Beltrano da Silva',
-                partido: 'DEFG',
+                number: '77222',
+                name: 'Beltrano da Silva',
+                party: 'DEFG',
                 photos:[
                     {url:'77222.jpg', legenda: 'Vereador'}
                 ]
@@ -28,7 +28,7 @@ let steps = [
             {
                 number: '99',
                 name: 'Ciclano',
-                part: 'ABC',
+                party: 'ABC',
                 vice: 'Cic',
                 photos:[
                     {url:'99.jpg', legenda: 'Prefeito'},
@@ -38,7 +38,7 @@ let steps = [
             {
                 number: '84',
                 name: 'Zulano',
-                part: 'QWERTY',
+                party: 'QWERTY',
                 vice: 'Zul',
                 photos:[
                     {url:'84.jpg', legenda: 'Prefeito'},

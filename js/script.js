@@ -79,7 +79,7 @@ function clicked(n) {
     if (elNumer.nextElementSibling !== null) {
       elNumer.nextElementSibling.classList.add("blinks"); // acha o elemento do lado
     } else {
-        updateInterface();
+      updateInterface();
     }
   }
 }
@@ -88,14 +88,15 @@ function white() {
   number = "";
   WhiteVote = true;
   yourVoteFor.style.display = "block";
-  notice .style.display = "block";
+  notice.style.display = "block";
   numbers.innerHTML = "";
-  description.innerHTML = '<div class="notice--large blinks">VOTO EM BRANCO</div>';
+  description.innerHTML =
+    '<div class="notice--large blinks">VOTO EM BRANCO</div>';
   side.innerHTML = "";
 }
 
 function corrects() {
-    startStep();
+  startStep();
 }
 
 let finalStage = false;
@@ -105,18 +106,19 @@ function corrects() {
   }
 }
 function confirm() {
-  if (!finalStage) { // verifica se já chegou no final 
+  if (!finalStage) {
+    // verifica se já chegou no final
     let stage = steps[CurrentStage];
 
     let voteConfirmed = false;
     if (WhiteVote === true) {
-        voteConfirmed = true;
+      voteConfirmed = true;
       votes.push({
         stage: steps[CurrentStage].title,
         vote: "white",
       });
     } else if (number.length === stage.numbers) {
-        voteConfirmed = true;
+      voteConfirmed = true;
       votes.push({
         stage: steps[CurrentStage].title,
         vote: number,
@@ -124,7 +126,7 @@ function confirm() {
     }
 
     if (voteConfirmed) {
-        CurrentStage++;
+      CurrentStage++;
 
       if (steps[CurrentStage] !== undefined) {
         startStep();
@@ -144,4 +146,4 @@ function corrects() {
   }
 }
 
-startStep()
+startStep();
