@@ -10,19 +10,19 @@ Este projeto é uma simulação de uma **urna eletrônica** desenvolvida em Java
 -  Inicio: 
  <img src="images/inicio.png" alt="init page"/>
 
- -  Voto: 
+-  Voto: 
 
-     <img src="images/votacao-prefeito.png" alt="vote_mayor"/>
+<img src="images/votacao-prefeito.png" alt="vote_mayor"/>
 
-     <img src="images/votacao-vereador.png" alt="vote_councilor"/>
+<img src="images/votacao-vereador.png" alt="vote_councilor"/>
 
 - Nulo: 
 
-    <img src="images/nulo.png" alt="vote_null"/>
+<img src="images/nulo.png" alt="vote_null"/>
 
  -  Branco: 
 
-     <img src="images/branco.png" alt="vote_white"/>
+ <img src="images/branco.png" alt="vote_white"/>
 
 ## Funcionalidades
 
@@ -101,4 +101,4 @@ Se você deseja contribuir com melhorias ou correções para este projeto, siga 
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
