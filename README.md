@@ -42,20 +42,13 @@ Este projeto é uma simulação de uma **urna eletrônica** desenvolvida em Java
 ## Como Executar o Projeto
 
 1.  **Clone o repositório**:
+
     
-    bash
-    
-    Copiar código
-    
-    `git clone https://github.com/seu-usuario/projeto-urna-eletronica.git` 
+    `git clone https://github.com/ThainaSantoss/Urna-eletronica.git` 
     
 2.  **Navegue até o diretório do projeto**:
-    
-    bash
-    
-    Copiar código
-    
-    `cd projeto-urna-eletronica` 
+
+    `cd Urna-eletronica` 
     
 3.  **Abra o arquivo `index.html` no seu navegador** para visualizar e interagir com a urna eletrônica.
 
